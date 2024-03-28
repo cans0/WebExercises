@@ -1,0 +1,30 @@
+body{
+  font-family: Verdana, Geneva, 'Arial';
+  font-size: 14px;
+	font-size: 150%;
+	font-size: 1.2em;
+	font-size: 5 vh;
+  font-weight: bold;
+	font-weight: 400;
+}
+
+h1, h2 {
+  font-family: Arial;
+  color: grey;
+}
+
+
+h1 {
+  border-bottom: 1px solid black;
+  font-size: 2rem;
+}
+
+p {
+  color: maroon;
+  font-size: 2em;
+  font-size: 10vw;
+}
+
+em {
+  font-family: "Cascadia Mono";
+}
