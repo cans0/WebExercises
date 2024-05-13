@@ -1,0 +1,8 @@
+body {
+    font-size: 15px;
+    line-height: 21px;
+    background-color: #000;
+    width: 100%;
+    font-family: 'Spiller','Arial','Helvetica','sans-serif';
+    overflow-x: hidden;
+}
