@@ -1,8 +1,47 @@
 body {
     font-size: 15px;
     line-height: 21px;
-    background-color: #000;
+    background-color: #000000;
     width: 100%;
     font-family: 'Spiller','Arial','Helvetica','sans-serif';
     overflow-x: hidden;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover,a:visited,a:link,a:active{
+    color: white;
+}
+
+.Welcome-to-the-family-of-art{
+    width: 64%;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    line-height: 2.8rem;
+    font-size: 2rem;
+}
+
+Admission{
+    float: right;
+    padding: 0px;
+    border: 0px;
+    padding: 0px;
+    width: 600px;
+    list-style-type: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+button{
+    color: #fff;
+    border: 0;
+    background-color: #000000;
 }
