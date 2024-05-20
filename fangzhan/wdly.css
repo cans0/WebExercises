@@ -13,6 +13,10 @@ a{
     color: white;
 }
 
+.link1{
+    text-decoration: underline;
+}
+
 a:hover,a:visited,a:link,a:active{
     color: white;
 }
@@ -22,12 +26,19 @@ a:hover,a:visited,a:link,a:active{
     border: none;
     margin: 0px;
     padding: 0px;
-    display: block;
     line-height: 2.8rem;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
-Admission{
+.Welcome-to-the-family-of-art h2{
+    margin: 0px;
+}
+
+.piaogen{
+    float: left;
+}
+
+.Admission-is-free{
     float: right;
     padding: 0px;
     border: 0px;
@@ -45,3 +56,9 @@ button{
     border: 0;
     background-color: #000000;
 }
+
+.logo{
+    width: 30px;
+    height: auto;
+}
+
