@@ -15,6 +15,10 @@ a{
 
 .link1{
     text-decoration: underline;
+    font-size: 14px;
+    padding: 0px 14px 0px 0px;
+    width: 185px;
+    height: 16px;
 }
 
 a:hover,a:visited,a:link,a:active{
@@ -22,33 +26,44 @@ a:hover,a:visited,a:link,a:active{
 }
 
 .Welcome-to-the-family-of-art{
-    width: 64%;
+    width: 570px;
+    height: 290px;
     border: none;
     margin: 0px;
     padding: 0px;
     line-height: 2.8rem;
-    font-size: 1rem;
+    font-size: 17px;
 }
 
 .Welcome-to-the-family-of-art h2{
     margin: 0px;
+    width: 570px;
+    height: 260px;
+    font-size: 41px;
 }
 
 .piaogen{
     float: left;
+    width: 40px;
+    height: auto;
 }
 
 .Admission-is-free{
     float: right;
+    font-size: 14px;
     padding: 0px;
     border: 0px;
-    padding: 0px;
-    width: 600px;
+    margin: 0px 0px 20px 0px;
+    width: 267px;
+    height: 290px;
     list-style-type: none;
+    /* display: table-cell; */
 }
 
 ul{
     list-style-type: none;
+    width: 267px;
+    height: 133px;
 }
 
 button{
@@ -59,6 +74,125 @@ button{
 
 .logo{
     width: 30px;
-    height: auto;
+    height: 20px;
 }
 
+.hengxiangtupian{
+    width: 428px;
+    height: 256px;
+    max-width: 100%;
+}
+
+.zongxiangtupian{
+    width: 256px;
+    height: 428px;
+    max-width: 100%;
+}
+
+.shixiang{
+    width: 485px;
+    height: 385px;
+}
+
+.Admission{
+    font-size: 23px;
+    margin: 0px 0px 10px 0px;
+}
+
+.some{
+    font-size: 14px;
+    margin: 0px 0px 10px 0px;
+}
+
+.South{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    z-index:2;
+}
+
+.South-body{
+    position: absolute;
+    left: 10px;
+    top: 35px;
+}
+
+.South-Kensington{
+    position: relative;
+}
+
+.Dundeeh3{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    z-index:2;
+}
+
+.Dundee-body{
+    position: absolute;
+    left: 10px;
+    top: 35px;
+}
+
+.Dundee{
+    position: relative;
+}
+
+.Wedgwood{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    z-index:2;
+}
+
+.Wedgwood-text{
+    position: absolute;
+    left: 10px;
+    top: 35px;
+}
+
+.Wedgwood-Collection{
+    position: relative;
+}
+
+.Youngh3{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    z-index:2;
+}
+
+.Young-text{
+    position: absolute;
+    left: 10px;
+    top: 35px;
+}
+
+.Young{
+    position: relative;
+}
+
+.Easth3{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    z-index:2;
+}
+
+.East-text{
+    position: absolute;
+    left: 10px;
+    top: 35px;
+}
+
+.East{
+    position: relative;
+}
+
+.First-text{
+    font-size: 17px;
+    width: 1022px;
+    height: 370px;
+    padding: 40px 65px 40px 65px;
+    /* display: table-row; */
+}
