@@ -21,36 +21,51 @@ a{
     height: 16px;
 }
 
-a:hover,a:visited,a:link,a:active{
+a:hover,
+a:visited,
+a:link,
+a:active{
     color: white;
 }
 
 .Welcome-to-the-family-of-art{
-    width: 570px;
-    height: 290px;
+    width: 590px;
+    height: 300px;
     border: none;
     margin: 0px;
     padding: 0px;
     line-height: 2.8rem;
     font-size: 17px;
+    position: relative;
+    top: 60px;
 }
 
 .Welcome-to-the-family-of-art h2{
     margin: 0px;
-    width: 570px;
+    width: 620px;
     height: 260px;
-    font-size: 41px;
+    font-size: 31px;
+    position: relative;
+    left: -50px;
+    top: -40px;
+    z-index: 2;
+    font-weight: normal;
+    letter-spacing: 2px;
 }
 
 .piaogen{
     float: left;
-    width: 40px;
+    width: 30px;
     height: auto;
 }
 
 .Admission-is-free{
-    float: right;
-    font-size: 14px;
+    position: relative;
+    top: -120px;
+    left: 630px;
+    z-index: 2;
+    font-size: 9px;
+    height: 370px;
     padding: 0px;
     border: 0px;
     margin: 0px 0px 20px 0px;
@@ -60,6 +75,11 @@ a:hover,a:visited,a:link,a:active{
     /* display: table-cell; */
 }
 
+.some{
+    width: 210px;
+    height: 42px;
+}
+
 ul{
     list-style-type: none;
     width: 267px;
@@ -67,9 +87,15 @@ ul{
 }
 
 button{
+    font-size: 17px;
     color: #fff;
-    border: 0;
+    border: 5;
+    padding: 5px;
     background-color: #000000;
+}
+
+.button:hover{
+    background-color: #484a4f;
 }
 
 .logo{
@@ -77,21 +103,30 @@ button{
     height: 20px;
 }
 
-.hengxiangtupian{
-    width: 428px;
-    height: 256px;
-    max-width: 100%;
+.hengxiangtupian1,
+.hengxiangtupian2{
+    width: 400px;
+    height: 250px;
+    /* background: linear-gradient(
+        transparent, rgba(0,0,0,0.7)); */
 }
 
-.zongxiangtupian{
-    width: 256px;
-    height: 428px;
-    max-width: 100%;
+.zongxiangtupian1,
+.zongxiangtupian2,
+.zongxiangtupian3{
+    width: 250px;
+    height: 400px;
+    /* background: linear-gradient(
+        transparent, rgba(0,0,0,0.7)); */
 }
 
 .shixiang{
-    width: 485px;
-    height: 385px;
+    width: 480px;
+    height: 350px;
+    float: right;
+    position: relative;
+    top: -104px;
+    left: 10px;
 }
 
 .Admission{
@@ -107,7 +142,7 @@ button{
 .South{
     position: absolute;
     left: 10px;
-    top: 0px;
+    top: -5px;
     z-index:2;
 }
 
@@ -119,6 +154,10 @@ button{
 
 .South-Kensington{
     position: relative;
+    left: 20px;
+    width: 428px;
+    height: 428px;
+    margin: 0px 0px 20px 0px;
 }
 
 .Dundeeh3{
@@ -136,6 +175,11 @@ button{
 
 .Dundee{
     position: relative;
+    left: 420px;
+    top: -450px;
+    width: 256px;
+    height: 428px;
+    margin: 0px 0px 20px 20px;
 }
 
 .Wedgwood{
@@ -153,6 +197,11 @@ button{
 
 .Wedgwood-Collection{
     position: relative;
+    left: 690px;
+    top: -900px;
+    width: 256px;
+    height: 428px;
+    margin: 0px 0px 20px 20px;
 }
 
 .Youngh3{
@@ -170,6 +219,11 @@ button{
 
 .Young{
     position: relative;
+    left: -10px;
+    top: -1070px;
+    width: 256px;
+    height: 256px;
+    margin: 0px 0px 20px 181px;
 }
 
 .Easth3{
@@ -187,12 +241,81 @@ button{
 
 .East{
     position: relative;
+    left: 420px;
+    top: -1195px;
+    width: 428px;
+    height: 256px;
+    margin: 0px 0px 20px 20px;
 }
 
 .First-text{
     font-size: 17px;
-    width: 1022px;
-    height: 370px;
+    width: 890px;
+    height: 240px;
     padding: 40px 65px 40px 65px;
+    background-color: #1d1e20;
+    position: relative;
+    left: 210px;
     /* display: table-row; */
+}
+
+.tupianqu{
+    width: 978px;
+    height: 700px;
+    position: absolute;
+    left: 220px;
+    background-color: #1d1e20;
+    padding: 0px 20px 40px 20px;
+    margin: -10px 0px 0px 0px;
+}
+
+.Fundraising{
+    width: 1020px;
+    height: 343px;
+    position: relative;
+    top: 800px;
+    left: 200px;
+    background-color: #fff;
+}
+
+.Fundraising-link{
+    position: relative;
+    left: 80px;
+    top: 50px;
+    /* border-bottom: 250px solid #fff;
+        border-right: 150px solid transparent; */
+}
+
+.white-sanjiao{
+    border-bottom: 344px solid #fff;
+    border-right: 226px solid transparent;
+    z-index: 2;
+    position: relative;
+    left: 280px;
+    top: -110px;
+}
+
+.news-title{
+    width: 40px;
+    height: 18px;
+    font-weight: normal; 
+    font-size: 15px;
+    color: #505354;
+}
+
+.news-head{
+    width: 490px;
+    height: 40px;
+    margin: 15px 0px;
+    font-size: 31px;
+    color: #1d1e20;
+    font-weight: normal;
+}
+
+.news-text{
+    width: 515px;
+    height: 56px;
+    font-size: 17px;
+    margin: 0px;
+    color: #505354;
 }
