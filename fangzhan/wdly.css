@@ -44,7 +44,7 @@ a:active{
     margin: 0px;
     width: 620px;
     height: 260px;
-    font-size: 31px;
+    font-size: 32px;
     position: relative;
     left: -50px;
     top: -40px;
@@ -89,9 +89,15 @@ ul{
 button{
     font-size: 17px;
     color: #fff;
-    border: 5;
     padding: 5px;
     background-color: #000000;
+    margin: 5px;
+}
+
+.button:active{
+    border: 4px solid #fff;
+    border-radius:10px 10px 10px 10px;
+    outline:3px solid #000;
 }
 
 .button:hover{
@@ -107,8 +113,6 @@ button{
 .hengxiangtupian2{
     width: 400px;
     height: 250px;
-    /* background: linear-gradient(
-        transparent, rgba(0,0,0,0.7)); */
 }
 
 .zongxiangtupian1,
@@ -120,12 +124,20 @@ button{
         transparent, rgba(0,0,0,0.7)); */
 }
 
+.hengxiangtupian1:active,
+.hengxiangtupian2:active,
+.zongxiangtupian1:active,
+.zongxiangtupian2:active,
+.zongxiangtupian3:active{
+    border: 4px solid #fff;
+}
+
 .shixiang{
     width: 480px;
     height: 350px;
     float: right;
     position: relative;
-    top: -104px;
+    top: -108px;
     left: 10px;
 }
 
@@ -139,17 +151,41 @@ button{
     margin: 0px 0px 10px 0px;
 }
 
-.South{
+.South-link::after{
+    content: " ";
     position: absolute;
-    left: 10px;
+    inset: 0;
+    background-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0) 36%);
+    opacity: .5;
+}
+
+.South-link{
+    display:block;
+    height: 250px;
+    width: 400px;
+}
+
+.South,
+.Dundeeh3,
+.Wedgwood,
+.Youngh3,
+.Easth3{
+    position: absolute;
+    left: 15px;
     top: -5px;
     z-index:2;
 }
 
-.South-body{
+.South-body,
+.Dundee-body,
+.Wedgwood-text,
+.Young-text,
+.East-text{
     position: absolute;
-    left: 10px;
+    left: 15px;
     top: 35px;
+    z-index:2;
+    text-shadow:0 1px 3px #1d1e20;
 }
 
 .South-Kensington{
@@ -160,17 +196,12 @@ button{
     margin: 0px 0px 20px 0px;
 }
 
-.Dundeeh3{
+.Dundee-link::after{
+    content: " ";
     position: absolute;
-    left: 10px;
-    top: 0px;
-    z-index:2;
-}
-
-.Dundee-body{
-    position: absolute;
-    left: 10px;
-    top: 35px;
+    inset: 0;
+    background-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0) 36%);
+    opacity: .5;
 }
 
 .Dundee{
@@ -182,17 +213,12 @@ button{
     margin: 0px 0px 20px 20px;
 }
 
-.Wedgwood{
+.Wedgwood-link::after{
+    content: " ";
     position: absolute;
-    left: 10px;
-    top: 0px;
-    z-index:2;
-}
-
-.Wedgwood-text{
-    position: absolute;
-    left: 10px;
-    top: 35px;
+    inset: 0;
+    background-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0) 36%);
+    opacity: .5;
 }
 
 .Wedgwood-Collection{
@@ -204,17 +230,12 @@ button{
     margin: 0px 0px 20px 20px;
 }
 
-.Youngh3{
+.Young-link::after{
+    content: " ";
     position: absolute;
-    left: 10px;
-    top: 0px;
-    z-index:2;
-}
-
-.Young-text{
-    position: absolute;
-    left: 10px;
-    top: 35px;
+    inset: 0;
+    background-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0) 36%);
+    opacity: .5;
 }
 
 .Young{
@@ -226,17 +247,12 @@ button{
     margin: 0px 0px 20px 181px;
 }
 
-.Easth3{
+.East-link::after{
+    content: " ";/*在content中加样式*/
     position: absolute;
-    left: 10px;
-    top: 0px;
-    z-index:2;
-}
-
-.East-text{
-    position: absolute;
-    left: 10px;
-    top: 35px;
+    inset: 0;
+    background-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0) 36%);
+    opacity: .5;
 }
 
 .East{
@@ -292,7 +308,7 @@ button{
     z-index: 2;
     position: relative;
     left: 280px;
-    top: -110px;
+    top: -115px;
 }
 
 .news-title{
