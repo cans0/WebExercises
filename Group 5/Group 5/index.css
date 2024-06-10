@@ -14,10 +14,6 @@ body{
   background-size:115% ;
 }
 
-.bd_herder {
-  
-}
-
 .navigation_bar{
   width: 1285px;
   width: auto;
@@ -70,7 +66,7 @@ body{
 .header_h2{
   width: 640px;
   line-height: 3.8rem;
-  font-size: 3.6rem;
+  font-size: 4rem;
   font-weight: 450px;
 
   margin-top: 10px;
@@ -82,7 +78,7 @@ body{
   padding-right: 60px;
 
   background: linear-gradient(transparent, rgba(0,0,0,0.7)); 
-  background: linear-gradient(transparent, black); 
+  background: linear-gradient(transparent, black 550px,black); 
   height: 610px;
   
   width: 1300px;
@@ -128,7 +124,7 @@ body{
   margin: 0px auto;
   
   position: relative;
-  top: 350px;
+  top: 400px;
 }
 
 .header_button{
@@ -214,7 +210,7 @@ li.search{
   color: white;
 }
 
-.link1{
+a.link1{
   text-decoration: underline;
   font-size: 14px;
   padding: 0px 14px 0px 0px;
@@ -317,29 +313,37 @@ button{
   width: 430px;
   height: 250px;
   position: relative;
-  left: 60px;
 }
 
-.hengxiangtupian2 {
-  left: 90px;
-}
-
-.zongxiangtupian1,
-.zongxiangtupian2,
-.zongxiangtupian3{
-  width: 250px;
-  height: 400px;
+.zongxiangtupian1{
+  width: 245px;
+  height: 395px;
   position: relative;
-  left: 90px;
+  left: 5px;
 }
 
-.hengxiangtupian1:active,
+.zongxiangtupian2{
+  width: 245px;
+  height: 395px;
+  position: relative;
+  left: 5px;
+}
+
+
+.zongxiangtupian3{
+  width: 245px;
+  height: 395px;
+  position: relative;
+  left: 5px;
+}
+
+/* .hengxiangtupian1:active,
 .hengxiangtupian2:active,
 .zongxiangtupian1:active,
 .zongxiangtupian2:active,
-.zongxiangtupian3:active{
+.zongxiangtupian3:active {
   border: 4px solid #fff;
-}
+} */
 
 .shixiang img {
   width: 470px;
@@ -364,13 +368,18 @@ button{
   opacity: .5;
   width: 430px;
   height: 250px;
-  left: 60px;
 }
 
 .South-link{
   display:block;
   height: 250px;
-  width: 400px;
+  width: 430px;
+  position: relative;
+  left: 40px;
+}
+
+.South-link:active{
+  border: 4px solid #fff;
 }
 
 .Wedgwood{
@@ -379,24 +388,29 @@ button{
 
 .South{
   position: absolute;
-  left: 85px;
+  left: 25px;
   top: 0px;
   z-index:2;
 }
 
 .Dundeeh3,
 .Wedgwood,
-.Youngh3,
-.Easth3{
+.Youngh3{
   position: absolute;
-  left: 105px;
+  left: 25px;
   top: 0px;
   z-index:2;
 }
 
+.Easth3{
+  position: absolute;
+  left: 20px;
+  z-index: 2;
+}
+
 .South-body{
   position: absolute;
-  left: 88px;
+  left: 28px;
   top: 40px;
   z-index:2;
   text-shadow:0 1px 3px #1d1e20;
@@ -404,13 +418,20 @@ button{
 
 .Dundee-body,
 .Wedgwood-text,
-.Young-text,
-.East-text{
+.Young-text{
   position: absolute;
-  left: 105px;
+  left: 25px;
   top: 40px;
   z-index:2;
   text-shadow:0 1px 3px #1d1e20;
+}
+
+.East-text{
+  position: absolute;
+  left: 20px;
+  top: 40px;
+  text-shadow:0 1px 3px #1d1e20;
+  z-index: 2;
 }
 
 .Wedgwood-text{
@@ -419,7 +440,7 @@ button{
 
 .South-Kensington{
   position: relative;
-  left: 20px;
+  left: 40px;
   width: 428px;
   height: 428px;
   margin: 0px 0px 20px 0px;
@@ -431,18 +452,31 @@ button{
   inset: 0;
   background-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0) 36%);
   opacity: .5;
-  width: 250px;
-  height: 430px;
-  left: 90px;
+  width: 245px;
+  height: 395px;
+  left: 5px;
 }
 
 .Dundee{
   position: relative;
-  left: 420px;
-  top: -450px;
-  width: 256px;
-  height: 428px;
+  z-index: 2;
+  left: 515px;
+  top: -448px;
+  width: 248px;
+  height: 400px;
   margin: 0px 0px 20px 20px;
+}
+
+.Dundee:active{
+  border: 4px solid #fff;
+  border-right: 4px solid #fff;
+}
+
+.Dundee-link{
+  position: absolute;
+  width: 250px;
+  height: 400px;
+  left: -1px;
 }
 
 .Wedgwood-link::after{
@@ -452,17 +486,27 @@ button{
   background-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0) 36%);
   opacity: .5;
   width: 250px;
-  height: 430px;
-  left: 90px;
+  height: 390px;
+  left: 5px;
+}
+
+.Wedgwood-link{
+  width: 245px;
+  height: 395px;
 }
 
 .Wedgwood-Collection{
   position: relative;
-  left: 690px;
-  top: -900px;
-  width: 256px;
-  height: 428px;
+  z-index: 2;
+  left: 790px;
+  top: -868px;
+  width: 250px;
+  height: 400px;
   margin: 0px 0px 20px 20px;
+}
+
+.Wedgwood-Collection:active{
+  border: 4px solid #fff;
 }
 
 .Young-link::after{
@@ -471,18 +515,22 @@ button{
   inset: 0;
   background-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0) 36%);
   opacity: .5;
-  width: 250px;
-  height: 430px;
-  left: 90px;
+  width: 245px;
+  height: 395px;
+  left: 5px;
 }
 
 .Young{
   position: relative;
-  left: -10px;
-  top: -1070px;
-  width: 256px;
-  height: 256px;
+  left: 77px;
+  top: -1010px;
+  width: 250px;
+  height: 400px;
   margin: 0px 0px 20px 181px;
+}
+
+.Young:active{
+  border: 4px solid #fff;
 }
 
 .East-link::after{
@@ -493,16 +541,21 @@ button{
   opacity: .5;
   width: 430px;
   height: 250px;
-  left: 90px;
+  /* left: 90px; */
 }
 
 .East{
   position: relative;
-  left: 420px;
-  top: -1195px;
+  left: 525px;
+  top: -1280px;
   width: 428px;
   height: 256px;
   margin: 0px 0px 20px 20px;
+  z-index: 2;
+}
+
+.East:active{
+  border: 4px solid #fff;
 }
 
 .First-text{
@@ -582,10 +635,10 @@ button{
 }
 
 .introduce {
-  margin-top: 200px;
+  margin-top: 250px;
   position: relative;
-  /* left: 130PX; */
-  margin-left: 120px;
+  left: 5PX;
+  margin-left: 85px;
 }
 /* xqz */
 
@@ -833,7 +886,7 @@ h2 {
   border-color: #fff;
 }
 
-.sing-up {
+.sing-up,.sing-up2 {
   width: 300px;
   color: #000;
   border: none;
@@ -855,11 +908,16 @@ h2 {
   left: -5px;
 }
 
-.More_info-sing-up:active{
-  border: 4px solid #fff;
+.sing-up:active{
+  outline: 4px solid #000;
   border-radius:5px 5px 5px 5px;
-  outline:3px solid #000;
 }
+
+/* .sing-up :visited {
+  border: 2px solid #000;
+  border-radius:5px 5px 5px 5px;
+  outline:1px solid #000;
+} */
 
 .You-can{
   color: #505354;
@@ -911,7 +969,7 @@ a {
 }
 
 .Collections .header {
-  padding: 47px 10px 40px;
+  padding: 0px 10px 0px;
 }
 
 .Collections h1 {
@@ -1309,7 +1367,7 @@ div.tablerow {
 }
 /* xxy */
 .footer_back {
-  margin: 0px 745px; 
+  margin: 0px 700px; 
 } 
 
 .back {
@@ -1326,7 +1384,7 @@ div.tablerow {
   font-variation-settings: "wght" 400;
   padding: 20px 15px;
   position: relative;
-  top: 80px;
+  top: 60px;
   text-align: center;
 }
 
@@ -1475,12 +1533,12 @@ div.footer_back {
 
 .abc{
     text-decoration: underline;
-    text-decoration-color:#fff;
+    text-decoration-color:#b7b8bd;
 }
 .abcd{
     text-decoration: underline;
-    text-decoration-color:#fff;
-    color: #fff;
+    text-decoration-color:#b7b8bd;
+    color: #b7b8bd;
 }
 
 .footer_link {
@@ -1664,6 +1722,7 @@ li.footer_item13 {
     padding: 60px 0px 0px;
     margin: 0px 0px 20px;
     font-size: 13px;
+    color: #b7b8bd;
 }
 
 li.footer_item14 {
@@ -1717,7 +1776,6 @@ div.title1 {
 
 .container {
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     margin: 0 auto;
     width: 1020px;
@@ -1872,7 +1930,7 @@ input.sign-up{
 
 .footer_blocks9 li.footer_item9:hover{
     text-decoration: underline;
-    color: #fff;
+    text-decoration-color: #b7b8bd;
 }
 
 .footer_blocks10 li.footer_item12:hover{
@@ -1887,7 +1945,7 @@ input.sign-up{
 
 .footer_blocks11 li.footer_item16:hover{
     text-decoration: underline;
-    color: #fff;
+    color: #b7b8bd;
 }
 
 .aaa {
@@ -1902,3 +1960,40 @@ input.sign-up{
 .footer_back :active {
   border:4px solid;
 }
+
+.footer_item14 a {
+  color: #b7b8bd;
+}
+
+a .link2 :hover{
+  text-decoration: underline;
+  color: #b7b8bd;
+}
+
+.header_h2 {
+  font-family: 'S';
+}
+
+.header_subheading {
+  font-family: 'S';
+}
+
+.header_location {
+  font-family: 'S';
+}
+
+.header_button {
+  font-family: 'S';
+}
+
+.title3 {
+  color: #b7b8bd;
+  margin-top: 10px;
+}
+
+.e-maile .sing-up2 :active {
+  border: 4px solid #000;
+  border-radius:5px 5px 5px 5px;
+  outline:3px solid #fff;
+}
+
